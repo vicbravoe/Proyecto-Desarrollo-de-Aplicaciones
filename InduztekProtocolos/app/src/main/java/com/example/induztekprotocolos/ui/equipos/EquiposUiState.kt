@@ -1,6 +1,6 @@
-package cl.induztek.protocolos.ui.equipos
+package com.example.induztekprotocolos.ui.equipos
 
-import cl.induztek.protocolos.data.local.EquipoEntity
+import com.example.induztekprotocolos.data.local.EquipoEntity
 
 data class EquiposUiState(
     val cargando: Boolean = true,
