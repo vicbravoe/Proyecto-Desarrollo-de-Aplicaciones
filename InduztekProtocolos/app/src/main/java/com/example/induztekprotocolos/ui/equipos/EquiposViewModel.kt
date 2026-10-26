@@ -1,8 +1,8 @@
-package cl.induztek.protocolos.ui.equipos
+package com.example.induztekprotocolos.ui.equipos
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import cl.induztek.protocolos.data.repository.ProtocoloRepository
+import com.example.induztekprotocolos.data.repository.ProtocoloRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
