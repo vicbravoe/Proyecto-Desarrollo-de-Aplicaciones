@@ -1,4 +1,4 @@
-package cl.induztek.protocolos.ui.equipos
+package com.example.induztekprotocolos.ui.equipos
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
@@ -17,8 +17,8 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import cl.induztek.protocolos.ui.components.TarjetaEquipo
-import cl.induztek.protocolos.ui.theme.Dimens
+import com.example.induztekprotocolos.ui.components.TarjetaEquipo
+import com.example.induztekprotocolos.ui.theme.Dimens
 
 @Composable
 fun EquiposListScreen(
