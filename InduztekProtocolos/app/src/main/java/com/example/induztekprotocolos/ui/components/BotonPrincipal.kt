@@ -1,4 +1,4 @@
-package cl.induztek.protocolos.ui.components
+package com.example.induztekprotocolos.ui.components
 
 import androidx.compose.foundation.layout.height
 import androidx.compose.material3.Button
@@ -7,7 +7,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import cl.induztek.protocolos.ui.theme.Dimens
+import com.example.induztekprotocolos.ui.theme.Dimens
 
 @Composable
 fun BotonPrincipal(
