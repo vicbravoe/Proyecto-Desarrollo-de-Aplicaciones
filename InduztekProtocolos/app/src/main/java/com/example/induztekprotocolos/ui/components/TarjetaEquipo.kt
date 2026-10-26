@@ -1,4 +1,4 @@
-package cl.induztek.protocolos.ui.components
+package com.example.induztekprotocolos.ui.components
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
@@ -16,8 +16,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import cl.induztek.protocolos.data.local.EquipoEntity
-import cl.induztek.protocolos.ui.theme.Dimens
+import com.example.induztekprotocolos.ui.data.local.EquipoEntity
+import com.example.induztekprotocolos.ui.theme.Dimens
 
 @Composable
 fun TarjetaEquipo(equipo: EquipoEntity, onClick: () -> Unit, modifier: Modifier = Modifier) {
