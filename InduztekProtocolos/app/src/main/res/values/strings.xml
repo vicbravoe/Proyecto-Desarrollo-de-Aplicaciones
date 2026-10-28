@@ -1,3 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Induztek Protocolos</string>
+
+    <!-- Permisos (avisos cuando el usuario rechaza) -->
+    <string name="permiso_camara_denegado">Sin permiso de cámara no puedo tomar la foto de evidencia.</string>
+    <string name="permiso_galeria_denegado">Sin permiso de imágenes no puedo abrir la galería.</string>
+    <string name="permiso_ubicacion_denegado">Sin permiso de ubicación no puedo registrar dónde se hizo la prueba.</string>
+    <string name="btn_ajustes">Ajustes</string>
 </resources>
