@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- PASO 1 de Permisos (DECLARAR): los 3 recursos nativos de la app -->
+    <!-- Recurso nativo 1: Cámara (foto de evidencia de la placa del equipo) -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- Recurso nativo 2: Galería (adjuntar una foto existente) -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <!-- Recurso nativo 3: Ubicación (dónde se hizo la prueba) -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- La cámara no es obligatoria: la app también sirve en equipos sin ella -->
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
 
     <application
         android:allowBackup="true"
@@ -14,12 +28,9 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.InduztekProtocolos"
-            android:windowSoftInputMode="adjustResize">
+            android:theme="@style/Theme.InduztekProtocolos">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
